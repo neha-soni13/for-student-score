@@ -1,0 +1,39 @@
+for score in student_scores:
+    if score > highest_score:
+        highest_score=score
+        print(f"the highest score in the class is:max{highest_score}")
+
+
+total=0
+for number in range(2,101,2):
+    total+=number
+print(total)
+
+total1=0
+for number in range(2,101):
+     if number%2==0:
+        total1+=number
+print(total1)
+
+dict={
+ "brand": "ford",
+ "model": "mustang",
+ "year":  1964
+}
+dict.update({"color": "red"})
+import random
+word_list=["ardvark","baboon","camel"]
+chosen_word=random.choice(word_list)
+guess=input("guess a letter:").lower()
+
+for letter in chosen_word:
+       if letter==guess:
+           print("right")
+
+       else:
+           print("wrong")
+
+a=30
+b=40
+if a>b:
+    print("a is greater than b")
